@@ -5,4 +5,8 @@
 
 <h3>Repositório da aula desenvolvimento UC2<h3>
 
+<<<<<<< HEAD
 <p>https://miro.com/app/live-embed/uXjVJDhjmu8=/?embedMode=view_only_without_ui&moveToViewport=-565%2C694%2C1998%2C913&embedId=628754674932</p>
+=======
+<p></p>link do miro: https://miro.com/app/live-embed/uXjVJDhjmu8=/?embedMode=view_only_without_ui&moveToViewport=-565%2C694%2C1998%2C913&embedId=628754674932
+>>>>>>> 617eb0b854c1475aaaee31a0a4983b63e706cc6c
