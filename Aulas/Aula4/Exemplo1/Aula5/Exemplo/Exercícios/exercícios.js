@@ -11,3 +11,5 @@ console.log(typeof(idadeNumero))
 //toString conversor de number para string
 const idadeTexto = idadeNumero.toString()
 console.log(typeof(idadeTexto))
+
+let 

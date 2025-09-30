@@ -36,12 +36,12 @@ console.log(typeof(nome), typeof(idade))
 
 // Esse tipo foi impresso pois nao assumimos valor á variavel //
 
-let nome2 = prompt("Qual seu nome?")
-let idade2 = prompt("Qual a sua idade?")
+nome = prompt("Qual seu nome?")
+idade = prompt("Qual a sua idade?")
 
-console.log("Meu nome é:", nome2, "e eu tenho:", idade2, "anos")
+console.log("Meu nome é:", nome, "e eu tenho:", idade, "anos")
 
-console.log(typeof(nome2), typeof(idade2))
+console.log(typeof(nome), typeof(idade))
 
 // string e string
 
