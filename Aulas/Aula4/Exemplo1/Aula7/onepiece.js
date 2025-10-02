@@ -29,6 +29,6 @@ novaRecompensaLuffy = recompensaBaseLuffy + aumentoRecompensa
  riscoAlto = chanceVitoria<limiteSeguranca
  batalhaFacil = combateJusto==combateRapido
 
- console.log(podeVencer)
- console.log(riscoAlto)
- console.log(batalhaFacil)
+ console.log("A forçaTripulaçao é maior ou igual que a forçaInimigo?", podeVencer)
+ console.log("A chanceVitoria é menor que o limiteSeguranca?", riscoAlto)
+ console.log("O combateJusto é igual ao combate rapido?", batalhaFacil)
