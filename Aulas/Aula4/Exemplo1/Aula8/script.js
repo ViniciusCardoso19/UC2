@@ -46,6 +46,13 @@ console.log("Idade em 2050:", idade + 25)*/
 //No console vai apenas colocar o número grudado, por ser uma string. Exemplo: 2 + 3 = 23
 // Ele deve transformar o prompt em Number.
 
+let idade1 = prompt("Qual a sua idade?")
+let idadeMelhorAmigo = prompt("Qual a idade do seu melhor amigo/amiga?")
+idade1 = Number(idade1)
+idadeMelhorAmigo = Number(idadeMelhorAmigo)
+
+console.log("Sua idade é maior do que a do seu melhor amigo?", idade1>idadeMelhorAmigo)
+
 let numero = prompt("Insira um número par")
 console.log(numero%2)
 //o resto sempre vai dar 0
@@ -59,6 +66,33 @@ idadeDias = idadeMeses*30
 console.log(idadeMeses)
 console.log(idadeDias)
 console.log(idadeDias*24)
+
+let numero1 = prompt("Escolha um número")
+let numero2 = prompt("Escolha outro número")
+console.log("O primeiro numero é maior que segundo?", numero1>numero2)
+console.log("O primeiro numero é igual ao segundo?", numero1 === numero2)
+console.log("O primeiro numero é divisível pelo segundo?", numero1/numero2)
+console.log("O segundo numero é divisível pelo primeiro?", numero2/numero1)
+
+let farenheit = 77
+let farenheitEmKelvin = (77 - 32)*5/9 + 273.15
+console.log("Farenheit transformado em kelvin é", farenheitEmKelvin,"kelvins")
+let celsius = 80
+let celsiusEmFarenheit = 80*(9/5) + 32
+console.log("Celsius transformado em farenheit é", celsiusEmFarenheit, "farenheit")
+celsius = 30 
+celsiusEmFarenheit2 = 30*(9/5) + 32
+celsiusEmKelvin = 30 + 273.15
+console.log("Celsius transformado em farenheit é", celsiusEmFarenheit2, "F")
+console.log("Celsius transformado em kelvin é", celsiusEmKelvin, "K")
+
+NAO FEITO PORRAAAA
+
+QuilowattHora = 0.05
+console.log(QuilowattHora*280)
+console.log()
+
+
 
 
 
