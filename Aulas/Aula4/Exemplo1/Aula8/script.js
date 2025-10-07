@@ -56,7 +56,7 @@ console.log("Sua idade é maior do que a do seu melhor amigo?", idade1>idadeMelh
 let numero = prompt("Insira um número par")
 console.log(numero%2)
 //o resto sempre vai dar 0
-// o resto sempre vai ser impar
+// o resto sempre vai ser diferente de 0
 
 let idade = prompt("Qual sua idade?")
 idade = Number(idade)
@@ -67,12 +67,12 @@ console.log(idadeMeses)
 console.log(idadeDias)
 console.log(idadeDias*24)
 
-let numero1 = prompt("Escolha um número")
-let numero2 = prompt("Escolha outro número")
+let numero1 = Number (prompt("Escolha um número"))
+let numero2 = Number(prompt("Escolha outro número"))
 console.log("O primeiro numero é maior que segundo?", numero1>numero2)
 console.log("O primeiro numero é igual ao segundo?", numero1 === numero2)
-console.log("O primeiro numero é divisível pelo segundo?", numero1/numero2)
-console.log("O segundo numero é divisível pelo primeiro?", numero2/numero1)
+console.log("O primeiro numero é divisível pelo segundo?", numero1%numero2 === 0)
+console.log("O segundo numero é divisível pelo primeiro?",numero2%numero1 === 0)
 
 let farenheit = 77
 let farenheitEmKelvin = (77 - 32)*5/9 + 273.15
@@ -85,8 +85,9 @@ celsiusEmFarenheit2 = 30*(9/5) + 32
 celsiusEmKelvin = 30 + 273.15
 console.log("Celsius transformado em farenheit é", celsiusEmFarenheit2, "F")
 console.log("Celsius transformado em kelvin é", celsiusEmKelvin, "K")
+console.log()
 
-NAO FEITO PORRAAAA
+
 
 QuilowattHora = 0.05
 console.log(QuilowattHora*280)
