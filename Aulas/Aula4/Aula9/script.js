@@ -15,7 +15,7 @@ console.log(typeof(frase2))
 const frase3 = `O meu nome é ${nome} e minha idade é ${idade}`
 console.log(frase3)
 console.log(typeof(frase3))*/
-
+/*
 const nome = prompt("Qual seu nome?")
 const corFav = prompt("Qual a sua cor favorita?")
 
@@ -56,8 +56,63 @@ const listaDeCompras = ["abacate", "banana", "tomate"]
 
 console.log(listaDeCompras[1])
 
+const racasCachorro = ["pitbull", "pug", "pastor alemão", "husky", "bulldog"]
+const numeroEscolhido = prompt("Escolha um número de 0 a 4")
+const racaEscolhida = (racasCachorro[numeroEscolhido])
+console.log(racaEscolhida)
 
+const pokemon = ["bulbasauro", "squirtle", "charmander"]
+console.log(pokemon.length)
 
+const seriesBoas = ["Vikings", "The Big Bang Theory"]
+console.log(seriesBoas.includes("Vikings"), seriesBoas.includes("GOT"))
 
+const numeros = [1, 2, 3]
+
+numeros.push(4)
+console.log(numeros)
+
+numeros.push(5,6,7)
+console.log(numeros)
+
+const meusPeixes = ["palhaço", "mandarim", "esturjão"]
+meusPeixes.pop()
+console.log(meusPeixes)
+const letras = ["A", "B", "C", "D", "E", "F", "G", "H"]
+letras.splice(1,1)
+*/
+const numeros2 = ["1","2", "3", "4", "5", "6"]
+console.log(numeros2.length)
+
+numeros2.push(7)
+console.log(numeros2)
+
+numeros2.splice(3,2)
+console.log(numeros2)
+console.log(numeros2.length)
+
+let array
+console.log("a ", array)
+//undefined
+
+array = null
+console.log("b ", array)
+//null
+
+array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+console.log("c ", array.length)
+//11
+
+let i = 0
+console.log("d ", array[i])
+//3
+
+array[i+1] = 19
+console.log("e ", array)
+// [3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+const valor = array[i+6]
+console.log("f ", valor)
+// 9
 
 
