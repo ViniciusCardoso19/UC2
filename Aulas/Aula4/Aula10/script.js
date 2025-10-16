@@ -79,3 +79,29 @@ switch(pokemonEscolhido.toLowerCase()) {
         break
 
 }
+
+let chapeuHp = prompt("Qual aluna está entrando?")
+
+switch(chapeuHp.toLowerCase()) {
+    case 'harry potter' :
+        console.log("Grifinória")
+        break
+    case 'draco malfoy' :
+        console.log("Sonserina")
+        break
+    case 'hermione' :
+        console.log("Grifinória")
+        break
+    case 'ana' :
+        console.log("Lufa-lufa")
+        break
+    case 'luna' :
+        console.log("Corvinal")
+        break
+    case 'narcisa' :
+        console.log("Sonserina")
+        break
+    default :
+        console.log("aluna não encontrada")
+        break
+}
