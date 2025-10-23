@@ -37,7 +37,7 @@ let nivelMesaCrafting = Number(2)
 const temGravetos = false
 let temFerro = Number(10)
 //se as condições forem de acordo
-if(temGravetos===false||nivelMesaCrafting<3&&temDiamantes===true&&temFerro>=8){
+if(temGravetos!==false||nivelMesaCrafting<3&&temDiamantes===true&&temFerro>=8){
     console.log("Picareta de Diamante criada! Hora de buscar obsidiana!") // imprimira essa mensagem se for tudo de acordo
 }
 else console.log("Faltam recursos ou as condições de crafting não são atendidas") //caso não esteja de acordo, imprimira esta.
