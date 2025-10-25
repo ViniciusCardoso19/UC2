@@ -26,7 +26,7 @@ Ele comenta que passou no teste se tiver resto 0
 Ele comenta que não passou se tiver outro resto, sendo assim um numero impar*/
 
 /* Quando você escolher uma fruta aparecerá o preço da fruta ao lado.
-2.25
+O valor impresso será 5
 O preço da fruta vai ser o que tiver no default no caso = 5
 
 Esta criando uma variavel para perguntar ao usuario um numero.
