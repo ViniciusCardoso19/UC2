@@ -39,10 +39,56 @@ do{
 for(let i = 0; i<6; i++){
     console.log(meuArray[i])
 }*/
-let maiorNumero = 0
+/*let maiorNumero = 0
 let array = [11, 15, 18, 14, 12, 13]
 for(let i = 0; i<6; i++){
     if(maiorNumero>array[i]){
         maiorNumero = array[i]
     }
+}*/
+
+/*let soma = 0
+const meuArray = [11, 15, 18, 14, 12, 13]
+for(let i = 0; i<6; i++){
+    if(meuArray[i]%2===0){
+        soma = soma + meuArray[i]
+
+    }
 }
+console.log("A soma dos números pares é", soma)*/
+
+/*const numeros = [14, 67, 89, 15, 23]
+
+for(let numero of numeros){
+    console.log(numero)
+}*/
+
+/*let mensagem = ["Oi", "sumido", "tudo", "bem?", "Saudades"]
+
+let palavra = ""
+for(palavra of mensagem){
+    palavra = palavra + mensagem[i] + " "
+
+} 
+console.log(palavra)*/
+
+//Exercicios de fixação
+//1.O código está fazendo um looping, somando todos os valores de 0 a 4. O valor impresso no console será 10.
+
+//2.A) Vai ser impresso todos os números do array maiores que 18.
+//B) Sim, é suficiente. Poderia ser usado 
+
+// 3.No console seria impresso * ** *** **** em lista.
+
+//Exercícios de fixação
+let bichinho = Number(prompt("Quantos bichinhos de estimação você tem?"))
+if(bichinho===0){
+    console.log("Que pena! Você pode adotar um pet")
+}
+else if(bichinho>0){
+    console.log(prompt("Digite os nomes deles")){
+       let nomeBichinho = []
+    }
+}
+
+
