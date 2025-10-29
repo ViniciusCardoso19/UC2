@@ -81,14 +81,35 @@ console.log(palavra)*/
 // 3.No console seria impresso * ** *** **** em lista.
 
 //Exercícios de fixação
+let nomeDosBichinhos = []
 let bichinho = Number(prompt("Quantos bichinhos de estimação você tem?"))
-if(bichinho===0){
+if (bichinho === 0) {
     console.log("Que pena! Você pode adotar um pet")
 }
-else if(bichinho>0){
-    console.log(prompt("Digite os nomes deles")){
-       let nomeBichinho = []
+else if (bichinho > 0) {
+    for (let i = 0; i < bichinho; i++) {
+        let nomes = prompt("Digite o nome dos seus bichinhos")
+        nomeDosBichinhos.push(nomes)
     }
 }
+console.log("Os nomes dos seus pets são:", nomeDosBichinhos)
+
+let arrayOriginal = [10, 15, 20, 30, 40, 50, 55]
+for (let numero of arrayOriginal) {
+    console.log(numero)
+}
+for (let numero of arrayOriginal) {
+    console.log(numero / 10)
+}
+let novoArray = []
+for (let i = 0; i < 7; i++) {
+    if (arrayOriginal[i] % 2 === 0) {
+        novoArray.push(arrayOriginal[i])
+       // console.log(novoArray[i])
+    }
+}console.log(novoArray)
+
+let arrayString = []
+
 
 
