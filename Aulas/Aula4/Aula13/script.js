@@ -76,7 +76,7 @@ console.log(palavra)*/
 //1.O código está fazendo um looping, somando todos os valores de 0 a 4. O valor impresso no console será 10.
 
 //2.A) Vai ser impresso todos os números do array maiores que 18.
-//B) Sim, é suficiente. Poderia ser usado 
+//B) Não, não é suficiente. Poderia ser usado index of
 
 // 3.No console seria impresso * ** *** **** em lista.
 
@@ -110,6 +110,10 @@ for (let i = 0; i < 7; i++) {
 }console.log(novoArray)
 
 let arrayString = []
+for(let i = 0;i<arrayOriginal.length;i++){
+    arrayString.push("O elemneto do index" +i+ "é" + arrayOriginal)
+}console.log(arrayString)
+
 
 
 
