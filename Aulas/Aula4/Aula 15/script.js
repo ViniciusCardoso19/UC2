@@ -1,4 +1,4 @@
-function imprimirOlaMundo(){
+/*function imprimirOlaMundo(){
     console.log("Olá Mundo!")
 }
 for(let i = 0;i<3;i++){
@@ -51,11 +51,23 @@ function calculaArea(altura, largura){
 }
 let resultadoArea = calculaArea(2,3)
 console.log(resultadoArea)
-console.log(calculaArea(2,3))
+console.log(calculaArea(2,3))*/
 
-function soma(numero1, numero2){
-const soma = numero1+numero2
-return soma
+const k = 1
+const z = 2
+function somaNumeros(){
+    return k + z
 }
-let resultadoSoma = soma(1,2)
+const resultadoSoma = somaNumeros()
 console.log(resultadoSoma)
+
+let numeros = [10, 20 , 30, 40 , 50]
+function retornoArray(array){
+    let novoArray = []
+    novoArray.push(array[0]/2)
+    novoArray.push(array[array.length-1]/2)
+    return novoArray
+}
+console.log(retornoArray(numeros))
+
+
