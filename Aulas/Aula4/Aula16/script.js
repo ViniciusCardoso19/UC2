@@ -22,3 +22,28 @@ function determinaMonstro(temPeleGelada, transformaLuaCheia, brilhaAoSol, temSed
     
 }
 determinaMonstro(true,false,true, true, false)
+
+//Exercicios de Fixação
+//1. a) vai ser impresso 10 e 50 no console.log
+// b) nada vai ser impresso
+
+//2. a)Confere se o texto do usuario tem a palavra "cenoura", caso tenha imprimira true
+//b) Ira resultar true em todos no console.log
+
+//1.
+
+function imprimirInfo(){
+    console.log("Eu sou o Vinícius, tenho 17 anos, moro no Rio Grande do Sul e sou estudante")
+}
+
+//3.
+
+let num1 = Number(prompt("Digite o primeiro número"))
+let num2 = Number (prompt("Digite o segundo número"))
+
+function soma(num1,num2){
+    return num1+num2
+}
+
+console.log("Numeros inseridos", num1, num2)
+console.log("Soma:", soma(num1,num2))
