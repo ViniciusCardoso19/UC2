@@ -8,7 +8,7 @@
 }
 console.log(professor.nome)*/
 
-const filme = {
+/*const filme = {
     nome: "Esposa de Mentirinha",
     direção: "Dennis Dugan",
     anoLancamento: 2011,
@@ -27,7 +27,7 @@ console.log("O ator é", filme.nome[1], "e o personagem é",)
 
 console.log(filme.nome)
 console.log(filme.direção)
-console.log(filme[anoLançamento])
+console.log(filme[anoLancamento])
 console.log(filme[elenco])
 console.log(filme[jaAssistiu])
 
@@ -47,4 +47,26 @@ const professores = [
 
 console.log("O professor:", professores[1].nome,
 "deu o modulo", professores[1].modulo)
+*/
 
+const pessoa = {
+    nome: "Pedro",
+    idade: 17,
+    listaComidasFav: ["Estrogonofe", "Pizza", "Xis", "Sushi", "Salchipão"],
+    melhorAmigo: {
+    nome: "Lucas",
+    idade: 17
+    }
+}
+
+    console.log("O nome da pessoa é", pessoa.nome, "e suas comidas favoritas são", pessoa.listaComidasFav[0],",", pessoa.listaComidasFav[1],",", pessoa.listaComidasFav[2],". Seu melhor amigo se chama", ",", pessoa.melhorAmigo.nome,",", pessoa.melhorAmigo.idade)
+    
+    const personagens = [
+        {personagem: "Sasuke", idade: 17, estilo: "Ninjutsu", jutsus: ["bola de fogo", "chidori","amaterasu"]},
+        {personagem: "Naruto", idade: 17, estilo: "Ninjutsu", jutsus: ["rasengan", "harém", "mil clone das sombras"]},
+        {personagem: "Obito", idade: 30, estilo: "Ninjutsu", jutsus: ["bola de fogo", "kamui"]}
+
+    ]
+function adicionarPersonagem(){
+    personagens.push(personagem)
+}
