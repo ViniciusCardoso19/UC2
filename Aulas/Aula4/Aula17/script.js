@@ -67,6 +67,22 @@ const pessoa = {
         {personagem: "Obito", idade: 30, estilo: "Ninjutsu", jutsus: ["bola de fogo", "kamui"]}
 
     ]
+    const novoPersonagem = {
+        personagem: "Madara",  idade: 30, estilo: "Ninjutsu", jutsus: ["meteoro", "bola de fogo"]
+    }
 function adicionarPersonagem(){
-    personagens.push(personagem)
+    personagens.push(novoPersonagem)
+    
 }
+adicionarPersonagem()
+console.log(personagens)
+
+
+
+
+function buscarPersonagem(personagens){
+    const personagemEscolhido = prompt("Fale um personagem de Naruto")
+    return personagens.personagem
+    
+}
+buscarPersonagem()
