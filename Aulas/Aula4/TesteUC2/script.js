@@ -40,6 +40,7 @@ function buscarPersonagem(nome) {
         }
     }
 }
+//teste
 let aragorn = buscarPersonagem("Aragorn")
 atacar(aragorn)
 defender(aragorn)
