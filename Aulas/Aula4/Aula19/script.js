@@ -22,7 +22,7 @@ for(let i = 0; i<matriz.length; i++){
 }
 console.log(soma)*/
 
-let matriz = [
+/*let matriz = [
     [1, 2, 3, 4], 
     [5, 6, 7, 8],
     [9, 10, 11, 12],
@@ -37,4 +37,41 @@ function percorrerSoma(){
         }
     }
 }
-percorrerSoma()
+percorrerSoma()*/
+
+let tabuleiro = [
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+]
+let tentativa = 0
+[10][10]
+
+function posicionarNavio(){
+ tabuleiro [1][2] = 1
+ tabuleiro [4][3] = 2
+ tabuleiro[4][4] = 2
+}
+let escolha = prompt("Escolha uma posição do navio")
+function escolhaCelula(){
+    if(escolha==="1,2") {
+    console.log("Você acertou o navio");
+    if (escolha==="4,3"){
+        console.log("Você acertou o navio");
+        if(escolha==="4,4"){
+            console.log("Você acertou o navio");
+        }
+    }
+    }  
+    else 
+        console.log("Você errou o navio")
+}
+posicionarNavio()
+escolhaCelula()
